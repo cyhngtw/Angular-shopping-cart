@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ching-570fc": {
+      "hosting": {
+        "project-firebase": [
+          "ching-570fc"
+        ]
+      }
+    }
+  }
+}
