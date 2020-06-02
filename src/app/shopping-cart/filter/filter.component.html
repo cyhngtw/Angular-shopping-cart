@@ -1,0 +1,15 @@
+<!-- filtering -->
+
+
+  <mat-card class="example-card">
+    
+  
+    <mat-card-content>
+        <mat-form-field>
+            <input (keyup)="applyFilter($event.target.value)"       matInput placeholder="Filter">
+          </mat-form-field>
+        
+          <button mat-raised-button color="warn">by price</button>
+    </mat-card-content>
+   
+  </mat-card>

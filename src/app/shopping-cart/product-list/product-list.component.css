@@ -1,0 +1,43 @@
+.cardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.example-card {
+  width: 660px;
+  height: 600px;
+}
+mat-card
+{
+    margin: 2%;
+}
+
+.description {
+    font: 1em sans-serif;
+    font-size:large;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+/* Column Gap */
+.cardList > * {
+  box-sizing: border-box;
+}
+.cardList > *:not(:last-child) {
+  margin-right: 20px;
+}
+/* Item sizing */
+.cardListItem {
+  flex: 0 1 calc(30% - 20px);
+}
+.price
+{
+  font-size: medium;
+  font-weight: bold; 
+}

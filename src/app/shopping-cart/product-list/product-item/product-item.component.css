@@ -1,0 +1,47 @@
+.example-card {
+    max-width: 300px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+  }
+
+
+  mat-card
+  {
+      margin: 2%;
+  }
+  mat-card img{
+    
+    background-size: cover;
+  }
+  .description {
+      font: 1em sans-serif;
+      font-size:large;
+  }
+
+ 
+
+.cardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  /* Column Gap */
+  .cardList > * {
+    box-sizing: border-box;
+  }
+  .cardList > *:not(:last-child) {
+    margin-right: 20px;
+  }
+  /* Item sizing */
+  .cardListItem {
+    flex: 0 1 calc(30% - 20px);
+  }
+  .price
+  {
+    font-size: medium;
+    font-weight: bold; 
+  }
